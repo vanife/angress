@@ -3,5 +3,7 @@ dist
 .tmp
 .sass-cache
 npm-debug.log
-#(disabled now) app/bower_components
+
+#(disabled now in order to overcome PROXY problem) app/bower_components
+!app/bower_components/bootstrap/dist
 
