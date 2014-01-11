@@ -284,7 +284,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'copy:styles',
-        'imagemin',
+        // @note:vanos:disable on windows: 'imagemin',
         'svgmin'
       ]
     },
